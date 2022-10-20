@@ -7,11 +7,12 @@
     "php": ">=8.0",
     "ext-json": "*",
     "ext-curl": "*",
-    "zaxbux/flysystem-backblaze-b2": "^3.0"
+    "zaxbux/backblaze-b2-php": "^2.0"
   },
   "require-dev": {
     "phpunit/phpunit": "*",
-    "symfony/var-dumper": "^6.1"
+    "symfony/var-dumper": "^6.1",
+    "zaxbux/flysystem-backblaze-b2": "^3.0"
   },
   "autoload": {
     "psr-4": {
