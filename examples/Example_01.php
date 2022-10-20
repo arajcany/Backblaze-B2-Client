@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-use App\BackblazeB2\Client;
+use arajcany\BackblazeB2Client\BackblazeB2\Client;
 use League\Flysystem\DirectoryAttributes;
 use League\Flysystem\FileAttributes;
 use League\Flysystem\Filesystem;
@@ -22,7 +22,7 @@ $bucketId = '...';
 $config = [
     'applicationKeyId' => $keyId,
     'applicationKey' => $key,
-    //'authorizationCache' => false, //uncomment to stop using the AuthorizationCache, but why would you?
+    'authorizationCache' => false, //uncomment to stop using the AuthorizationCache, but why would you?
 ];
 
 //Guzzle options

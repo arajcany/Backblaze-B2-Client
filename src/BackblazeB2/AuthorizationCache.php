@@ -1,6 +1,6 @@
 <?php
 
-namespace App\BackblazeB2;
+namespace arajcany\BackblazeB2Client\BackblazeB2;
 
 use Zaxbux\BackblazeB2\Interfaces\AuthorizationCacheInterface;
 use Zaxbux\BackblazeB2\Object\AccountAuthorization;

@@ -9,6 +9,8 @@ In addition, the B2 Client will automatically use AuthorizationCache I wrote.
 Check the ```examples``` folder for a simple use case with ```league/flysystem``` 
 and ``` zaxbux/flysystem-backblaze-b2``` adapter.
 
+```composer require arajcany/backblaze-b2-client```
+
 ```php
 //BackblazeB2 Client options
 $config = [

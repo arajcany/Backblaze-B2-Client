@@ -1,6 +1,6 @@
 <?php
 
-namespace App\BackblazeB2;
+namespace arajcany\BackblazeB2Client\BackblazeB2;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface;
